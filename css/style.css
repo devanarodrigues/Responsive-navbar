@@ -1,0 +1,33 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body > nav{
+    margin: 2rem 1rem;
+    border-radius: .5rem;
+}
+
+body{
+    background-image: url("../img/nathan-anderson-L95xDkSSuWw-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-link, .navbar-brand{
+    color: #342be2 !important;
+}
+.nav-link:hover::after{
+    height: 3px;
+}
+
+.btn.btn-primary{
+    background-color: #342be2;
+    border-color: #342be2;
+    border-radius: 2rem;
+    padding: .5rem 2rem;
+}
+.btn.btn-primary:hover{
+    background-color: #1e17a6;
+    border-color: #1e17a6;
+}
